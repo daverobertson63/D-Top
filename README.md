@@ -5,3 +5,7 @@ It bothers me that out-of-the-box, D2 does NOTHING.  In an effort to help valida
 
 If you are interested in the “D-Top” D2 starter project, you can download it here.  Once downloaded, import it into D2-Config like you would import any other D2 configuration.  See the EMC Documentum D2 v4.5 Administration Guide for instructions regarding importing D2 configurations.
 
+![alt text](screenshots/d-top-1.png "Default View")
+
+![alt text](screenshots/d-top-2.png "View showing relationships, history, and an attribute dump")
+
