@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delta>
+	<modify id="menuPublishNew" label_en="menuPublishNew"/>
+	<modify id="menuPublishNewByCopy" label_en="menuPublishNewByCopy"/>
+	<modify id="menuPublishAdd" label_en="menuPublishAdd"/>
+	<modify id="menuPublishProperties" label_en="menuPublishProperties"/>
+	<modify id="menuPublishPDF" label_en="menuPublishPDF"/>
+</delta>

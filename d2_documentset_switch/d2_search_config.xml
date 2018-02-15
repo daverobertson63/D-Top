@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset_switch object_name="d2_search_config">
+	<d2_documentset name="All Users" config="D-Top Search"/>
+	<switch_defaults/>
+</d2_documentset_switch>

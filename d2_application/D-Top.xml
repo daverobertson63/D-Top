@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_application new_format="true">
+	<object_type value="d2_application"/>
+	<lock_config value="F"/>
+	<parents_config/>
+	<object_name value="D-Top"/>
+	<accessor_name/>
+	<title value=""/>
+	<accessor_permit>
+		<repeating value="context_check"/>
+		<repeating value="context_create_modify_destroy"/>
+		<repeating value="context_drag_drop"/>
+	</accessor_permit>
+</d2_application>

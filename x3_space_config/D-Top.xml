@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x3_space_config new_format="true">
+	<object_name value="D-Top"/>
+	<module_type value="x3_space_config"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<lock_config value="F"/>
+	<parents_config/>
+	<default_skin value="D-Top Blue Theme"/>
+	<desc_locale>
+		<repeating value="en"/>
+	</desc_locale>
+	<desc_value>
+		<repeating value="D-Top"/>
+	</desc_value>
+	<label_locale>
+		<repeating value="en"/>
+	</label_locale>
+	<label_value>
+		<repeating value="D-Top"/>
+	</label_value>
+	<preview_x3_image value="D-Top.JPG"/>
+	<x3_space_file value="D-Top.xml"/>
+	<is_locked value="T"/>
+	<view_file/>
+	<view_locale/>
+	<view_label/>
+	<view_position/>
+	<view_focus_events/>
+	<view_focus_event_params/>
+	<icon_x3_image value=""/>
+</x3_space_config>

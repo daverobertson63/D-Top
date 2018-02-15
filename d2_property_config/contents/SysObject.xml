@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog id="PropertiesDialog" buttons_right="false" focus="object_name" height="500" resizable="true" signoff_creation="false" signoff_edit="false" signoff_import="false" signoff_intention_dictionary="" signoff_intention_required="false" width="350">
+	<content>
+		<text id="object_name" label_en="Name"/>
+		<text id="r_object_id" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible_create="false" condition_visible_import="false" label_en="Object ID"/>
+		<text id="r_version_label" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(r_object_type).notEquals('dm_folder')))" condition_visible_create="false" condition_visible_import="false" label_en="Version"/>
+		<text id="r_object_type" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible_create="false" condition_visible_import="false" label_en="Object Type"/>
+		<text id="r_full_content_size" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(r_object_type).notEquals('dm_folder')))" condition_visible_create="false" condition_visible_import="false" label_en="Content Size"/>
+		<text id="a_content_type" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(r_object_type).notEquals('dm_folder')))" condition_visible_create="false" condition_visible_import="false" label_en="Content Type"/>
+		<combo id="owner_name" assistance_dql="select user_name from dm_user order by user_name" assistance_type="dql" condition_enabled_create="false" condition_enabled_import="false" condition_visible_create="false" condition_visible_import="false" label_en="Owner Name"/>
+		<text id="r_policy_id" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_folder'))&amp;&amp;(getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(Lifecycle).notEquals(''0000000000000000'')))" condition_visible_create="false" condition_visible_import="false" label_en="Lifecycle"/>
+		<fieldset label_en="Optional Metadata" no_border="false">
+			<text id="title" label_en="Title"/>
+			<text id="subject" label_en="Subject"/>
+			<memo id="keywords" label_en="Keywords"/>
+			<memo id="authors" label_en="Authors"/>
+			<memo id="log_entry" label_en="User Comments" rows="2"/>
+		</fieldset>
+		<fieldset advancedView_enabled="false" advancedView_visible="false" condition_enabled="(getValue(r_object_type).equals('dm_document'))" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="(getValue(r_object_type).equals('dm_document'))" condition_visible_create="false" condition_visible_import="false" label_en="Lock Metadata">
+			<text id="r_lock_date" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_folder'))&amp;&amp;(getValue(r_object_type).notEquals('dm_cabinet')))" label_en="Checkout Date"/>
+			<text id="r_lock_owner" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_folder'))&amp;&amp;(getValue(r_object_type).notEquals('dm_cabinet')))" label_en="Checked Out By"/>
+		</fieldset>
+		<fieldset condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible_create="false" condition_visible_import="false" label_en="Access Metadata">
+			<text id="r_creator_name" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" label_en="Created By"/>
+			<text id="r_creation_date" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" label_en="Created"/>
+			<text id="r_modifier" advancedView_enabled="false" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_folder'))&amp;&amp;(getValue(r_object_type).notEquals('dm_cabinet')))" label_en="Modified By"/>
+			<text id="r_modify_date" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(r_object_type).notEquals('dm_flolder')))" label_en="Last Modified"/>
+			<text id="r_access_date" advancedView_visible="false" condition_enabled_create="false" condition_enabled_edit="false" condition_enabled_import="false" condition_visible="((getValue(r_object_type).notEquals('dm_cabinet'))&amp;&amp;(getValue(r_object_type).notEquals('dm_folder')))" label_en="Last Accessed"/>
+		</fieldset>
+	</content>
+	<buttons>
+		<button id="buttonOk" action="validDialog()"/>
+		<button id="buttonCancel" action="cancelDialog()"/>
+	</buttons>
+</dialog>

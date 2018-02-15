@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_create_config object_name="D-Top Create Document" title="" lock_config="false" parents_config="SysObject¬Document" application_names="D-Top" condition_group_name="docu" for_linked_document="false" is_for_creation="true" is_for_import="false" for_paste_multi="false" for_paste_single="false" config_properties="" skip_edit_content="false" inheritance_hidden="true" inheritance_properties="false" inheritance_content="false" inheritance_vd="false" label_en="Document">
+	<header dictionary_name="D-Top Types" attr_name=""/>
+	<row type_name="dm_document" property_config="SysObject" o2_config="" start_version="0.1" attr_inheritance="" lifecycle="" default_value="D-Top SysObject" workflow="" dictionary_value="Document"/>
+</d2_create_config>

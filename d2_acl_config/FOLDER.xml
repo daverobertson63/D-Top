@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_acl_config new_format="true">
+	<object_name value="FOLDER"/>
+	<module_type value="d2_acl_config"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<lock_config value="F"/>
+	<parents_config/>
+	<accessor_permit>
+		<repeating value="3"/>
+		<repeating value="7"/>
+	</accessor_permit>
+	<accessor_xpermit>
+		<repeating value="0"/>
+		<repeating value="0"/>
+	</accessor_xpermit>
+	<accessor_name>
+		<repeating value="dm_world"/>
+		<repeating value="dm_owner"/>
+	</accessor_name>
+	<condition_attr_name>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_name>
+	<condition_attr_value>
+		<repeating value=""/>
+		<repeating value=""/>
+	</condition_attr_value>
+	<accessor_irm_permit>
+		<repeating value=""/>
+		<repeating value=""/>
+	</accessor_irm_permit>
+</d2_acl_config>

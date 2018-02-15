@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset new_format="true">
+	<object_name value="All Users"/>
+	<dql_where value=""/>
+	<order_no value="3"/>
+	<dql_from/>
+	<group_name>
+		<repeating value="admingroup"/>
+		<repeating value="dm_superusers"/>
+		<repeating value="dm_sysadmin"/>
+		<repeating value="docu"/>
+	</group_name>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<user_agent value=""/>
+	<parent_names/>
+	<parent_order_no/>
+	<lock_config value="F"/>
+	<parents_config>
+		<repeating value="SysObjects"/>
+	</parents_config>
+</d2_documentset>

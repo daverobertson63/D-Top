@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="SpaceSchema.xsd">
+	<space>
+		<border-layout-container>
+			<data>
+				<border-layout-data layoutregion="WEST" maxSize="450" minSize="200" size="250" split="true"/>
+				<border-layout-data layoutregion="CENTER" split="true"/>
+				<border-layout-data layoutregion="EAST" maxSize="550" minSize="200" size="350" split="true"/>
+				<border-layout-data layoutregion="SOUTH" maxSize="450" minSize="0" size="200" split="true"/>
+			</data>
+			<content>
+				<accordion-container>
+					<content>
+						<widget config="DT-Browser"/>
+						<widget config="DT-Favorites"/>
+						<widget config="DT-Checkedout"/>
+						<widget config="DT-Relationships"/>
+					</content>
+				</accordion-container>
+				<tab-container>
+					<content>
+						<widget config="DT-Doclist"/>
+					</content>
+				</tab-container>
+				<accordion-container>
+					<content>
+						<widget config="DT-Properties"/>
+						<widget config="DT-VDoc"/>
+						<widget config="DT-Dump"/>
+					</content>
+				</accordion-container>
+				<tab-container>
+					<content>
+						<widget config="DT-Location"/>
+						<widget config="DT-Versions"/>
+						<widget config="DT-Renditions"/>
+						<widget config="DT-Workflow-Tasks"/>
+						<widget config="DT-Workflows"/>
+						<widget config="DT-Audit"/>
+					</content>
+				</tab-container>
+			</content>
+		</border-layout-container>
+	</space>
+</root>

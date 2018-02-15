@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x3_widget_config new_format="true">
+	<object_name value="DT-Workflows"/>
+	<module_type value="x3_widget_config"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<lock_config value="F"/>
+	<parents_config/>
+	<preview_x3_image value=""/>
+	<label_locale>
+		<repeating value="en"/>
+	</label_locale>
+	<label_value>
+		<repeating value="Workflows"/>
+	</label_value>
+	<desc_locale>
+		<repeating value="en"/>
+	</desc_locale>
+	<desc_value>
+		<repeating value="Workflows"/>
+	</desc_value>
+	<widget_url value=""/>
+	<channel_name value=""/>
+	<widget_type value="WorkflowOverviewWidget"/>
+	<query_form_name value=""/>
+	<is_oaj value="F"/>
+	<channel_names/>
+	<param_name/>
+	<param_value/>
+	<focus_events/>
+	<focus_event_params/>
+	<customize_columns value="F"/>
+	<columns/>
+	<use_col_for_assist value="F"/>
+</x3_widget_config>

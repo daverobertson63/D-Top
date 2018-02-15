@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_default_value_config new_format="true">
+	<object_type value="d2_default_value_config"/>
+	<lock_config value="F"/>
+	<parents_config>
+		<repeating value="document"/>
+	</parents_config>
+	<attr_name>
+		<repeating value="owner_name"/>
+	</attr_name>
+	<attr_value>
+		<repeating value="$USER"/>
+	</attr_value>
+	<object_name value="D-Top SysObject"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+</d2_default_value_config>

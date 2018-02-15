@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delta>
+	<modify id="menuContextView">
+		<replace class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishPaper">
+			<condition class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishElec" showifinvalid="false"/>
+		</replace>
+		<replace class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishPaper">
+			<condition class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishElec" showifinvalid="false"/>
+		</replace>
+	</modify>
+	<modify id="menuPublishVolumize">
+		<replace class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishPaper">
+			<condition class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishElec" showifinvalid="false"/>
+		</replace>
+		<modify class="com.emc.d2fs.dctm.ui.dynamicactions.actions.ShowDialog" contextType="publish_elec"/>
+		<replace class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishPaper">
+			<condition class="com.emc.p2.webfs.ui.conditions.interfaces.IsPublishElec" showifinvalid="false"/>
+		</replace>
+		<modify class="com.emc.d2fs.dctm.ui.dynamicactions.actions.ShowDialog" contextType="publish_elec"/>
+	</modify>
+</delta>

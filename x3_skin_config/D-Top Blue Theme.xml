@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x3_skin_config new_format="true">
+	<object_name value="D-Top Blue Theme"/>
+	<module_type value="x3_skin_config"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<lock_config value="F"/>
+	<parents_config>
+		<repeating value="Theme light blue"/>
+	</parents_config>
+	<space_title_color value="6699CC"/>
+	<space_border_color value="6699CC"/>
+	<background_color value="6699CC"/>
+	<background_gradient_start value="FFFFFF"/>
+	<background_gradient_end value="6699CC"/>
+	<background_color_type value="textured"/>
+	<label_value>
+		<repeating value="D-Top Blue Theme"/>
+	</label_value>
+	<label_locale>
+		<repeating value="en"/>
+	</label_locale>
+	<selection_color value="6699CC"/>
+	<selection_blur_color value="C0C0C0"/>
+	<header_color value="6699CC"/>
+	<background_texture value="xcpbg_pattern.png"/>
+	<tab_inactive_color value="6699CC"/>
+	<tab_active_color value="FFFFFF"/>
+	<tab_colored_text value="T"/>
+	<tab_border_color value="DDDDDD"/>
+	<dialog_background_white value="T"/>
+	<header_logo value=""/>
+	<menu_text_color value="FFFFFF"/>
+	<menu_hover_color value="FFFFFF"/>
+	<tab_text_active value="6699CC"/>
+	<tab_text_inactive value="4B4B4B"/>
+</x3_skin_config>

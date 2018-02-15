@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_portalmenus_config new_format="true">
+	<object_name value="D-Top Menu"/>
+	<module_type value="d2_portalmenus_config"/>
+	<title value=""/>
+	<application_names>
+		<repeating value="D-Top"/>
+	</application_names>
+	<lock_config value="F"/>
+	<parents_config>
+		<repeating value="New menu"/>
+	</parents_config>
+</d2_portalmenus_config>

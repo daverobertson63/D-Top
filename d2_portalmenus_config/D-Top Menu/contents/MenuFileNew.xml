@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delta>
+	<modify id="menuFileNewDocument">
+		<replace class="com.emc.d2fs.dctm.ui.conditions.interfaces.IsConnected">
+			<condition class="com.emc.d2fs.dctm.ui.conditions.typeparts.IsCabinetOrFolder"/>
+		</replace>
+	</modify>
+	<modify id="menuFileNewFolder">
+		<delete class="com.emc.d2fs.dctm.ui.conditions.actions.CanCreateTaskFolder"/>
+		<append>
+			<condition class="com.emc.d2fs.dctm.ui.conditions.typeparts.IsCabinetOrFolder"/>
+		</append>
+	</modify>
+	<modify id="menuFileNewCabinet">
+		<modify class="com.emc.d2fs.dctm.ui.conditions.interfaces.IsNodeType" showifinvalid="false"/>
+	</modify>
+</delta>

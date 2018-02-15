@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delta>
+	<modify id="menuContextOpen" action="oam_target_type==LocateWidget!!openFolderOnLocate==true">
+		<replace class="com.emc.d2fs.dctm.ui.dynamicactions.events.Publish,com.emc.d2fs.dctm.ui.conditions.objects.CanBeOpened">
+			<dynamic-action class="com.emc.d2fs.dctm.ui.dynamicactions.events.PublishSource" event="D2_ACTION_LOCATE_OBJECT"/>
+			<condition class="com.emc.d2fs.dctm.ui.conditions.typeparts.IsCabinetOrFolder" showifinvalid="false"/>
+		</replace>
+		<modify class="com.emc.d2fs.dctm.ui.conditions.objects.IsReference" equals="true"/>
+		<replace class="com.emc.d2fs.dctm.ui.dynamicactions.events.Publish,com.emc.d2fs.dctm.ui.conditions.objects.CanBeOpened">
+			<dynamic-action class="com.emc.d2fs.dctm.ui.dynamicactions.events.PublishSource" event="D2_ACTION_LOCATE_OBJECT"/>
+			<condition class="com.emc.d2fs.dctm.ui.conditions.typeparts.IsCabinetOrFolder" showifinvalid="false"/>
+		</replace>
+		<modify class="com.emc.d2fs.dctm.ui.conditions.objects.IsReference" equals="true"/>
+	</modify>
+	<modify id="menuContextOpen" action="oam_target_type==LocateWidget!!openFolderOnLocate==true"/>
+</delta>

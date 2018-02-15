@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2_documentset_switch object_name="x3_widget_config">
+	<d2_documentset name="All Users" config="DT-Audit"/>
+	<d2_documentset name="All Users" config="DT-Browser"/>
+	<d2_documentset name="All Users" config="DT-Checkedout"/>
+	<d2_documentset name="All Users" config="DT-Doclist"/>
+	<d2_documentset name="All Users" config="DT-Dump"/>
+	<d2_documentset name="All Users" config="DT-Favorites"/>
+	<d2_documentset name="All Users" config="DT-Location"/>
+	<d2_documentset name="All Users" config="DT-Properties"/>
+	<d2_documentset name="All Users" config="DT-Relationships"/>
+	<d2_documentset name="All Users" config="DT-Renditions"/>
+	<d2_documentset name="All Users" config="DT-Search"/>
+	<d2_documentset name="All Users" config="DT-VDoc"/>
+	<d2_documentset name="All Users" config="DT-Versions"/>
+	<d2_documentset name="All Users" config="DT-Workflow-Tasks"/>
+	<d2_documentset name="All Users" config="DT-Workflows"/>
+	<switch_defaults/>
+</d2_documentset_switch>

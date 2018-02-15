@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<delta>
+	<modify id="menuFileImportDocument">
+		<insert position-after="com.emc.d2fs.dctm.ui.conditions.interfaces.IsConnected" position-before="com.emc.d2fs.dctm.ui.dynamicactions.actions.ActionDialog">
+			<condition class="com.emc.d2fs.dctm.ui.conditions.typeparts.IsCabinetOrFolder" showifinvalid="true"/>
+		</insert>
+		<append>
+			<condition class="com.emc.d2fs.dctm.ui.conditions.interfaces.IsConnected"/>
+		</append>
+	</modify>
+</delta>
